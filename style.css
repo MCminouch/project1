@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: medium;
+    gap: 1.5rem;
+    padding-right: 200px;
+}
+#about{
+    color: #00b39b;
+    margin-right: 10px;
+}
+.biglogo{
+    width: 268px;
+    height: 33px;
+    padding-left: 200px;
+}
+.minilogo{
+    width: 40px;
+    height: 40px;
+    padding-left: 750px;
+    padding-top: 100px;
+}
+.introdution-slogon{
+    color: #00b39b;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 2;
+    letter-spacing: -0.3px;
+    padding-top: -100px;
+    padding-left: 350px;
+}
+.twoparagraphes{
+    color:#747474;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.p1{
+    padding: 30px;
+}
+.forpatient{
+    background-color: #00ccb1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
